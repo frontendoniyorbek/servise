@@ -77,3 +77,32 @@ body {
 	width: 100%;
 	height: 100%;
 }
+
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+}
+
+.gallery__item1 {
+	grid-column: span 2;
+	grid-row: span 2;
+}
+
+.gallery__item2 {
+	grid-column: span 2;
+}
+
+.gallery__item9 {
+	grid-column: span 2;
+}
+
+.gallery__item10 {
+	grid-column: span 2;
+	grid-row: span 2;
+}
+
+.gallery__img {
+	width: 100%;
+	height: 100%;
+}
