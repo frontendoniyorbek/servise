@@ -33,6 +33,96 @@ body {
 	padding-right: 20px;
 }
 
+.site-top {
+	background-image: url(../images/site-top-bg.png);
+	background-position: center center;
+}
+
+.header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.header__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header__logo {
+	display: flex;
+	transition: all 0.4s ease;
+}
+
+.header__logo:hover {
+	transform: scale(1.2);
+}
+
+.header__logo:active {
+	opacity: 0.4;
+}
+
+.header__list {
+	display: flex;
+}
+
+.header__item:not(:last-child) {
+	margin-right: 32px;
+}
+
+.header__link {
+	font-weight: 500;
+	font-size: 10.88px;
+	line-height: line height/12;
+	letter-spacing: stroke weight/1;
+	vertical-align: middle;
+	text-transform: uppercase;
+	color: #fff;
+	transition: all 0.4s ease;
+}
+
+.header__link:hover {
+	color: #ee720c;
+}
+
+.header__link:active {
+	opacity: 0.4;
+}
+
+.line {
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.hero {
+	padding-top: 160px;
+	padding-bottom: 115px;
+}
+
+.hero__info {
+	max-width: 1082px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.hero__title {
+	font-weight: 500;
+	font-size: 60px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	color: #fff;
+	margin-bottom: 8px;
+}
+
+.hero__text {
+	color: #fff;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: line height/30;
+	letter-spacing: 0%;
+	vertical-align: middle;
+}
+
 .site-header {
 	padding-top: 52px;
 	padding-bottom: 43px;
@@ -105,4 +195,42 @@ body {
 .gallery__img {
 	width: 100%;
 	height: 100%;
+}
+
+.main__item {
+	display: flex;
+	padding-top: 72px;
+	padding-bottom: 72px;
+}
+
+.main__item:nth-child(2n) {
+	flex-direction: row-reverse;
+}
+
+.main__item:nth-child(2n - 1) {
+	background-color: #fffaea;
+}
+
+.main__item img {
+	margin-right: 20px;
+}
+
+.main__item-info {
+}
+.main__title {
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	color: #000;
+	margin-bottom: 16px;
+}
+
+.main__text {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: line height/30;
+	letter-spacing: 0%;
+	vertical-align: middle;
+	color: #000;
 }
